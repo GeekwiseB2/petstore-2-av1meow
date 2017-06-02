@@ -1,0 +1,85 @@
+/*GLOBALS*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+body {
+
+}
+
+.white-text {
+  color: #fff;
+}
+
+/*Header Style*/
+
+.flex { /*flex practice*/
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  height: 95px;
+}
+
+#brand {
+  font-family: 'satisfy', cursive;
+  color:#F27680; /*orange accent color*/
+  /*margin-top: 32px;*/
+font-size: 42px;
+}
+
+header ul.nav-pills {
+  /*margin-top: 26px;*/
+}
+
+/*Jumbotron Style*/
+
+.jumbotron {
+  height: 425px;
+  background-image: url('../img/hero.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron p {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+/*FEATURE Style*/
+
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 8px;
+}
+
+/*SERVICES STYLES*/
+
+.nav-stacked p {
+  margin top: 16px;
+}
+
+.nav {
+  text-align: center;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #000;
+  padding: 20px 0px;
+}
+
+address, address a{
+  color: #bfc0c1; /* Light Gray/Silver color */
+  text-decoration: none;
+}
+.border{
+  border-left: 1px solid #333
+}
+.social-media {
+  color: #bfc0c1;
+  text-decoration: none;
+}
